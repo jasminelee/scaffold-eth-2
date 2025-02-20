@@ -32,6 +32,7 @@ export const queryClient = new QueryClient({
   defaultOptions: {
     queries: {
       refetchOnWindowFocus: false,
+      experimental_prefetchInRender: true,
     },
   },
 });

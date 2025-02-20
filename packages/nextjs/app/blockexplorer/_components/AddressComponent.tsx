@@ -21,7 +21,7 @@ export const AddressComponent = ({
               <div className="flex flex-col gap-1">
                 <Address address={address} format="long" onlyEnsOrAddress />
                 <div className="flex gap-1 items-center">
-                  <span className="font-bold text-sm">Balance:</span>
+                  <span className="font-bold text-sm">Balanceee:</span>
                   <Balance address={address} className="text" />
                 </div>
               </div>

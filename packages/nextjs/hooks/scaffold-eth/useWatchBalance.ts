@@ -17,5 +17,9 @@ export const useWatchBalance = (useBalanceParameters: UseBalanceParameters) => {
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [blockNumber]);
 
+  useEffect(() => {
+    console.log("Balance data:", restUseBalanceReturn.data);
+  }, [restUseBalanceReturn]);
+
   return restUseBalanceReturn;
 };
